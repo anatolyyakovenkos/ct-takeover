@@ -1,13 +1,13 @@
 {
-  "name": "solana-bitcointalk-clone",
+  "name": "pump-fun-bitcointalk-clone",
   "version": "1.0.0",
-  "description": "Solana announcement on bitcointalk",
+  "description": "pump.fun announcement on bitcointalk",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": ["solana", "blockchain"],
+  "keywords": ["pump.fun", "blockchain"],
   "dependencies": {
     "express": "^4.18.2",
     "dotenv": "^16.0.3"

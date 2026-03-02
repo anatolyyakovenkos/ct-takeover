@@ -6,7 +6,7 @@ app.use(express.static('.'));
 
 app.get('/api/wallet', (req, res) => {
   res.json({
-    address: process.env.SOLANA_WALLET,
+    address: process.env.PUMP_FUN_WALLET,
     // Don't send private key to frontend in production!
     // This is just for demonstration
   });
